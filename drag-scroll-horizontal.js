@@ -1,4 +1,3 @@
-<script>
 //DRAG SCROLL U PRODUKCE
   document.addEventListener('DOMContentLoaded', function() {
     const ele = document.getElementById('clickanddrag');
@@ -83,4 +82,3 @@
     ele.addEventListener('mousedown', pointerDownHandler);
     ele.addEventListener('touchstart', pointerDownHandler);
   });
-</script>
