@@ -1,4 +1,3 @@
-<script>
 //SNIMANI TOHO JESTLI TO DANE VIDEO JE VE VIEWPORTU NEBO NE A PODLE TOHO SE ZAPINA CSS S KULICKOU A TEXTEM
 document.addEventListener("DOMContentLoaded", () => {
   const videoElement = document.querySelector(".inner-vid-wrapper");
@@ -28,4 +27,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
   observer.observe(videoElement); // Observe the visibility of the inner-vid-wrapper
 });
-</script>
