@@ -1,4 +1,3 @@
-<script>
 //EXTERNI SOURCE VIDEI U PRODUKCI
 $(document).ready(function () {
   // Find all video elements
@@ -38,4 +37,3 @@ $(document).ready(function () {
     }
   });
 });
-</script>
