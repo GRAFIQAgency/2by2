@@ -1,0 +1,24 @@
+/* Initial Styles for Headings */
+.Heading11,
+.Heading22,
+.Heading33 {
+  opacity: 0; /* Start hidden */
+  transform: translateY(15px); /* Positioned below */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth fade and move */
+}
+
+/* When Visible */
+.Heading11.visible,
+.Heading22.visible,
+.Heading33.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Return to original position */
+}
+
+/* When Exiting the Viewport */
+.Heading11.hidden,
+.Heading22.hidden,
+.Heading33.hidden {
+  opacity: 0; /* Fade out */
+  transform: translateY(15px); /* Move back down */
+}
