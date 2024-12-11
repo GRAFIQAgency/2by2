@@ -2,9 +2,10 @@
 .Heading11,
 .Heading22,
 .Heading33 {
+  position: absolute; /* Make sure they're positioned absolutely */
   opacity: 0; /* Start hidden */
-  transform: translateY(15px); /* Positioned below */
-  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth animation */
+  transform: translateY(15px); /* Start 15px below original position */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for fade and slide */
 }
 
 /* When Visible */
@@ -15,7 +16,7 @@
   transform: translateY(0); /* Back to original position */
 }
 
-/* When Exiting the Viewport */
+/* When Hidden */
 .Heading11.hidden,
 .Heading22.hidden,
 .Heading33.hidden {
