@@ -1,1 +1,20 @@
+/* Wrapper text styles */
+.wrapper-text1, .wrapper-text2, .wrapper-text3 {
+    position: absolute;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: transform 0.8s ease, opacity 0.8s ease;
+}
 
+/* Active class to apply animation */
+.wrapper-text1.active, .wrapper-text2.active, .wrapper-text3.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Exiting class to delay disappearance */
+.wrapper-text1.exiting, .wrapper-text2.exiting, .wrapper-text3.exiting {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: transform 0.8s ease, opacity 0.8s ease;
+}
