@@ -38,3 +38,4 @@ function animateWrapperText(wrapperClass, textClass, otherTextClasses) {
 animateWrapperText('.inner-vid-wrapper', '.wrapper-text1', ['.wrapper-text2', '.wrapper-text3']);
 animateWrapperText('.inner-vid-wrapper2', '.wrapper-text2', ['.wrapper-text1', '.wrapper-text3']);
 animateWrapperText('.inner-vid-wrapper3', '.wrapper-text3', ['.wrapper-text1', '.wrapper-text2']);
+
